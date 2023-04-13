@@ -15,6 +15,13 @@ You can find more information on the callenge [here](https://cloudresumechalleng
 
 
 
+## Week 1: 
 
 
-
+This week is focused on building the front end with HTML and CSS. A static website will be deployed using Google Cloud Storage
+ with HTTPS security. A cloud load balancer is also required along with a custom domain name. I purchased my domain from Google, and I reccomend that you also do this as it makes it easier in the long run and the prices are pretty affordable. 
+ 
+ for the HTML & CSS portion you can build out the website yourself or modify a template, which is what I did and you can find it here [ by Afnizar Nur Ghifari.]https://github.com/afnizarnur/draco/releases)
+ 
+ 
+ 
