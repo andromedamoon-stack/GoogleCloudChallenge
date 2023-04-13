@@ -14,10 +14,7 @@ Weaknesses going into the project:
 You can find more information on the callenge [here](https://cloudresumechallenge.dev/docs/the-challenge/) .
 
 
-## Week 1 ( In Progress):
-
-Skills Used: HTML, CSS, Git, DNS, Cloud Storage, CDN, DNSSEC (project modification) 
 
 
-I have some experience with HTML & CSS but I don't neccessarily need it in my skillset as my job areas are typically going to stay in infrastructure, automation, and security
-so I decided not to spend too much time in this area. I found a one page portflio templace from [Toocss.com](https://www.toocss.com/free-one-page-css-html-templates/) that I plan to modify and use.
+
+
