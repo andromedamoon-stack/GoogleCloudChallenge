@@ -1,148 +1,141 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Responsive Resume Template</title>
-  <meta name="viewport" content="width=device-width"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<div class="resume-wrapper">
-	<section class="profile section-padding">
-		<div class="container">
-			<div class="picture-resume-wrapper">
-        <div class="picture-resume">
-        <span><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="" /></span>
-        <svg version="1.1" viewBox="0 0 350 350">
-  
-  <defs>
-    <filter id="goo">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
-    </filter>
-  </defs>
-  
-  
-<g filter="url(#goo)" >  
-  
-  <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
-  
-  <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
-
-</g>  
-</svg>
-      </div>
-         <div class="clearfix"></div>
- </div>
-      <div class="name-wrapper">
-        <h1>Sarah <br/>Ward</h1><!-- YOUR NAME AND LAST NAME  -->
-      </div>
-      <div class="clearfix"></div>
-      <div class="contact-info clearfix">
-      	<ul class="list-titles">
-      	
-      		<li>Mail</li>
-      		<li>Web</li>
-      		<li>Home</li>
-          <li>Education</li>
-      	</ul>
-        <ul class="list-content ">
-        	
-        	<li>saward4@odyssey.haus</li> <!-- YOUR EMAIL -->
-        	<li><a href="#">odyssey.haus</a></li> <!-- YOUR WEBSITE  -->
-          <li>Greater Phoenix Area, AZ</li> <!-- YOUR STATE AND COUNTRY  --><li> Bachelors of Interdiciplinary Studies, Arizona State University</li>
-        </ul>
-      </div>
-      <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
-      	<p><span class="bold">Associate cloud engineer</span>  with experience in a wide range of industries, from healthcare to Education. Eager to utilize skills in a fast-paced environment and grow expertise in a collaborative team. Possesses a can-do attitude and a knack for problem solving. </p>
-      </div>
-    <img src="msbadge.png" alt="Azure Fundamentals">
-      <div class="contact-social clearfix">
-      	<ul class="list-titles">
-      		<li>Github</li>
-      	</ul>
-        <ul class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-
-      		<li><a href="https://github.com/andromedamoon-stack">andromeda-moon-stack</a></li> 
-      	</ul>
-      </div>
-		</div>
-	</section>
-  
-  <section class="experience section-padding">
-  	<div class="container">
-  		<h3 class="experience-title">Experience</h3>
-      
-      <div class="experience-wrapper">
-      	<div class="company-wrapper clearfix">
-      		<div class="experience-title">Odyssey Haus</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">July 2019 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div>
-        
-        <div class="job-wrapper clearfix">
-        	<div class="experience-title">Freelancer Part Time, IT & Technical Writing </div> <!-- JOB TITLE  -->
-          <div class="company-description">
-          	<li> Teach regular coding and IT skill sessions at Discord Server meetups</li> 
-            <li>Provide desktop and laptop support, PC building,and configuring home networks for various clients</li>
-          <!-- JOB DESCRIPTION  -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fots -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Remixicon Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Remixicon Icon -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <title>Odyssey.haus</title>
+  </head>
+  <body>
+    
+    <header class="ds-header">
+      <div class="container text-center">
+          <div class="ds-logo">
+            <a href="index.html">Sarah Ward</a>
           </div>
-        </div>
-        
-        <div class="company-wrapper clearfix">
-      	
-          <div class="time">July 2022- Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div>
-        
-         <div class="job-wrapper clearfix">
-        	<div class="experience-title">Part-time, Family Caregiver</div> <!-- JOB TITLE  -->
-          <div class="company-description">
-          	<p>Caregiver for a terminally-ill family member. Responsibilities included scheduling medical appointments and in-home hospice care, financial custodianship, and estate legal coordination.</p>  <!-- JOB DESCRIPTION  -->
-          </div>
-        </div>
-        
-        <div class="company-wrapper clearfix">
-       <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">2019</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div> 
-        
-         <div class="job-wrapper clearfix">
-        	<div class="experience-title"> Admissions Advisor</div> <!-- JOB TITLE  -->
-          <div class="company-description">
-          	<p> Recruited prospective students for business, health, psychology and education programs from the point of inquiry to enrollment. Developed and delivered presentations to prospective students.</p>   <!-- JOB DESCRIPTION  -->
-          </div>
-
-      <div class="section-wrapper clearfix">
-        <h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  --><li> Azure<li>Google Cloud </li> <li>Cloud Run</li> <li>Python</li><li>Javascript</li><li>Linux</li><li>Cloud SQL</li>
-      
       </div>
-      
-      <div class="section-wrapper clearfix">
-        <h3 class="section-title">Projects</h3>  
-        <div class="experience-title">Cloud Resume Project: GCP Edition</div>
-        
-        <p>Building a website from the ground up with a database,  custom domain, HTTPs Security, DNSSEC, Serverless Functions triggered through Cloud Run written in Python, all packaged into a Terraform template. Monitioring API through Google Cloud Monitoring.</p> 
-      </div>
-      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bb0dae47-d37d-4ec0-9428-95936df12ab8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-  	</div>
-  </section>
-  
-  <div class="clearfix"></div>
-</div>
-<!-- partial -->
-  <script src='//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script><script  src="./script.js"></script>
+    </header>
+    <!-- main -->
+    <main class="ds-pge-wrap">
+      <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12  col-md-6  col-lg-5  col-xl-5  col-xxl-5 ds-left-section">
+                <div class="ds-sticky">
+                  
+                  <div class="ds-socail">
+                    <span>Contact</span>
+                    <ul>
+                      <li><a href="mailto:sw115974@gmail.com">Email</a></li>
+                      <li><a href="https://github.com/andromedamoon-stack" target="_blanck">Github</a></li>
+                      <li><a href="https://www.linkedin.com/in/sarah-a-ward/" target="_blanck">Linkedin</a></li>
+                      <li><a href="https://tryhackme.com/p/andromedamoon6">Try Hack Me</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12  col-md-6  col-lg-7  col-xl-7  col-xxl-7 ds-right-section">
+              <div class="ds-info-sectio-wrp">
+                <section class="ds-info-sectio">
+                  <h2 class="ds-heading">
+                    Cybersecutity Analyst | Azure & GCP. 
+                  </h2>
+                  <p>Passionatesecurity analyst with analytical mindset and the ability to learn things quickly.  Adept at analyzing malware, log data sets to draw significant insights on attacks on operating systems and networks. Ability to detect, analyze, and triage security events and follow playbooks to prevent unauthorized malicious activities form impacting the organization. </p>
 
-</body>
+                  
+                </section>
+                <section class="ds-info-list-section">
+                  <h3 class="">Work Experience</h3>
+                 
+                    <h6>Homelab</h6>
+                    <p>Created a home lab and went through real live scenarios to gain expertise in vulnerability management, incident response, and SIEM:</p>
+                    <li>Used customer Powershell script to extract metadata from Windows Event Viewer to be forwarded to third party API in order to dervive geolocation data</li>
+                    <li>Configured Log Analytics Workspace in Azure to ingest custom logs containing geographic information ( latitude, longitude, state/province, country)</li>
+                    <li>Installed and configured Nessus Essentials to perform credentialed vulnerability scans against Windows 10 Hosts</li>
+                    <li> Implemented Vulnerability Management Function on sandbox networks:
+                       Discover, Prioritize, Assess, Report, Remediate, Verify</li>
+                    <li>Conducted vulnerability assessments with Nessus; remediated vulnerabilities</li>
+                    <li>Developed automated remediation process to preemptively deal with vulnerabilities stemming from Windows updates and third-party software.</li>
+                    <p>     </p>
+
+                    <h6>Caregiver</h6>
+                    <ul>2020 -</ul>
+                      <p>Caregiver for a terminally-ill family member. Responsibilities included scheduling medical appointments and in-home hospice care, financial custodianship, and estate legal coordination.</p>
+                    <p>               </p>
+                    <h6> Admissions Advisor</h6>
+                    <ul>2019</ul>
+                      <p>Recruited prospective students for business, health, psychology and education programs from the point of inquiry to enrollment. Developed and delivered presentations to prospective students.</p>
+                      <p>       </p>
+                      <h6> Technical Support</h6>
+                      <ul>2016-2018</ul>
+
+                  </section>
+                <section class="ds-info-list-section">
+                    <h3 class="">Certification</h3>
+                    <ul>
+                      <li>Azure Fundamentals: AZ 900</li>
+                      <li>Microsoft Security Operations Analyst: SC 200</li>
+                      <li>Security +</li>
+                    </ul>
+                </section>
+                <section class="ds-info-list-section">
+                  <h3 class="">Skills </h3>
+                  <ul>
+                  <li>Windows & Linux Operating Systems</li>
+                  <li>Splunk</li>
+                  <li>Nmap</li>
+                  <li>Burp</li>
+                  <li>Snort</li>
+                  <li>Wireshark</li>
+                  <li>Azure | GCP</li>
+                  <li> Digital forensics</li>
+                  <li>Bash, Powershell and Python Scripting</li>
+                  </ul>
+                <section class="ds-info-list-section">
+                    <h3 class="">Project </h3>
+                    <ul>
+                    
+
+                      <li><a href="details.html">Cloud Resume Projects</a></li>
+                      <p>Building a website from the ground up with a database, custom domain, HTTPs Security, DNSSEC, Serverless Functions triggered through Cloud Run written in Python, all packaged into a Terraform template. Monitioring API through Google Cloud Monitoring. </p>
+                      <p></p>
+                      
+                    </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+    <!-- main -->
+    <!-- footer -->
+    <footer class="ds-footer">
+      <div class="container">
+        <span class="ds-copyright">© 2021 All right reserved. <a href="https://wwww.designstub.com/" target="_blanck">Free minimal bootstrap template by Designstub.</span>
+      </div>
+    </footer>
+    <!-- footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
